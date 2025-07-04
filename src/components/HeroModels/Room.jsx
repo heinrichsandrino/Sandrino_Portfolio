@@ -6,9 +6,9 @@ import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
 
 export function Room(props) {
-    const { nodes, materials } = useGLTF("/models/optimized-room.glb");
+    const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + "models/optimized-room.glb");
     const screensRef = useRef();
-    const matcapTexture = useTexture("/images/textures/mat1.png");
+    const matcapTexture = useTexture(import.meta.env.BASE_URL + "images/textures/mat1.png");
 
     const curtainMaterial = new THREE.MeshPhongMaterial({
         color: "#d90429",
