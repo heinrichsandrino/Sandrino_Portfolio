@@ -39,7 +39,7 @@ export function Room(props) {
     });
 
     return (
-        <group {...props} dispose={null} rotation={[0, Math.PI, 0]}>
+        <group {...props} dispose={null} rotation={[0, -Math.PI / 2, 0]}>
             <EffectComposer>
                 <SelectiveBloom
                     selection={screensRef}
