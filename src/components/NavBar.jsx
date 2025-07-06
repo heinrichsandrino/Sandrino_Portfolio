@@ -1,36 +1,36 @@
 import { useState, useEffect } from "react";
-
 import { navLinks } from "../constants";
 
 const NavBar = () => {
-    // track if the user has scrolled down the page
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-        // create an event listener for when the user scrolls
         const handleScroll = () => {
-            // check if the user has scrolled down at least 10px
-            // if so, set the state to true
             const isScrolled = window.scrollY > 10;
             setScrolled(isScrolled);
         };
 
-        // add the event listener to the window
         window.addEventListener("scroll", handleScroll);
-
-        // cleanup the event listener when the component is unmounted
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
         <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
-            <div className="inner">
-                <a href="#hero" className="logo">
-                    Heinrich Sandrino
+            <div className="inner flex items-center justify-between">
+
+                {/* Logo with profile image */}
+                <a href="#hero" className="logo flex items-center gap-4">
+                    <img
+                        src={import.meta.env.BASE_URL + "images/profile.jpg"}
+                        alt="profile"
+                        className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-lg"
+                    />
+                    <span>Heinrich Sandrino</span>
                 </a>
 
+                {/* Navigation Links */}
                 <nav className="desktop">
-                    <ul>
+                    <ul className="flex gap-6">
                         {navLinks.map(({ link, name }) => (
                             <li key={name} className="group">
                                 <a href={link}>
@@ -42,6 +42,7 @@ const NavBar = () => {
                     </ul>
                 </nav>
 
+                {/* Contact Button */}
                 <a href="#contact" className="contact-btn group">
                     <div className="inner">
                         <span>Contact me</span>
@@ -50,6 +51,6 @@ const NavBar = () => {
             </div>
         </header>
     );
-}
+};
 
 export default NavBar;

@@ -1,5 +1,9 @@
 const navLinks = [
     {
+        name: "About",
+        link: "#about",
+    },
+    {
         name: "Work",
         link: "#work",
     },
@@ -145,39 +149,52 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+        review: "Heinrich provided technical expertise and ensured the reliability of election-related systems. His dedication contributed greatly to the success of the 2025 national and local elections.",
         imgPath: "/images/exp1.png",
         logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        title: "DESO Technical Support Staff",
+        date: "May 2025",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Provided technical assistance for Automatic Counting Machines (ACMs).",
+            "Handled setup, troubleshooting, and configuration of voting machines.",
+            "Coordinated with electoral boards to ensure smooth election operations.",
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        review: "Heinrich played a pivotal role in backend development and version control. His leadership in managing the team’s GitHub repository ensured seamless collaboration and efficient code integration.",
         imgPath: "/images/exp2.png",
         logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        title: "Back-End Developer Intern",
+        date: "June 2024 – July 2024",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Developed backend functionalities for an HR system using Angular Framework and Supabase.",
+            "Led the version control process by managing the team's GitHub repository.",
+            "Handled pull requests, resolved merge conflicts, and ensured successful integration of all team contributions.",
+            "Applied Scrum methodology to track development progress and coordinate tasks.",
         ],
     },
     {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+        review: "Heinrich showed initiative in supporting the digitization of records and provided technical support to streamline our barangay operations.",
         imgPath: "/images/exp3.png",
         logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+        title: "DOLE-GIP Intern",
+        date: "April 2024 – July 2024",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Digitized barangay records and supported basic IT maintenance.",
+            "Encoded documents and formatted official records for system integration.",
+            "Performed basic troubleshooting of office devices and software tools.",
+        ],
+    },
+    {
+        review: "Heinrich's backend solutions improved our internal workflows. His accuracy and technical proficiency in data migration were essential to our operations.",
+        imgPath: "/images/exp1.png",
+        logoPath: "/images/logo1.png",
+        title: "Back-End Support Staff",
+        date: "January 2024 – July 2024",
+        responsibilities: [
+            "Developed internal tools for data migration within the Odoo ERP system.",
+            "Created and tested product codes to ensure smooth data transitions.",
+            "Managed and analyzed datasets using spreadsheets for reporting and QA.",
         ],
     },
 ];

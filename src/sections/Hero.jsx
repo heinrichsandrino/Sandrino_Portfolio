@@ -13,7 +13,7 @@ const Hero = () => {
         );
     });
     return (
-        <section id="hero" className="relative overflow-hidden">
+        <section id="hero" className="relative overflow-hidden pb-6">
             <div className="absolute top-0 left-0 z-10">
                 <img src={import.meta.env.BASE_URL + "images/bg.png"} alt="background" />
             </div>
@@ -55,6 +55,7 @@ const Hero = () => {
                             className="md:w-80 md:h-16 w-60 h-12"
                             id="button"
                             text="See my work"
+                            targetId="work"
                         />
                     </div>
                 </header>
@@ -65,7 +66,6 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
-            <AnimatedCounter/>
         </section>
     )
 }
