@@ -68,17 +68,17 @@ const AppShowcase = () => {
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
                                     src= {import.meta.env.BASE_URL +"images/project2.png"}
-                                    alt="Library Management Platform"
+                                    alt="LAKAW"
                                 />
                             </div>
-                            <h2>The Library Management Platform</h2>
+                            <h2>LAKAW - Smart Travel Planner for Albay Province</h2>
                         </div>
 
                         <div className="project" ref={ycDirectoryRef}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src={import.meta.env.BASE_URL +"images/project3.png"} alt="YC Directory App" />
+                                <img src={import.meta.env.BASE_URL +"images/project3.png"} alt="aiBites" />
                             </div>
-                            <h2>YC Directory - A Startup Showcase App</h2>
+                            <h2>aiBites - AI Recipe Recommendation App</h2>
                         </div>
                     </div>
                 </div>

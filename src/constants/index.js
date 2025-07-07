@@ -39,37 +39,40 @@ const counterItems = [
 
 const logoIconsList = [
     {
-        imgPath: "/images/logos/company-logo-1.png",
+        imgPath: "/images/logos/company-1.png",
     },
     {
-        imgPath: "/images/logos/company-logo-2.png",
+        imgPath: "/images/logos/company-2.png",
     },
     {
-        imgPath: "/images/logos/company-logo-3.png",
+        imgPath: "/images/logos/company-3.png",
     },
     {
-        imgPath: "/images/logos/company-logo-4.png",
+        imgPath: "/images/logos/company-4.png",
     },
     {
-        imgPath: "/images/logos/company-logo-5.png",
+        imgPath: "/images/logos/company-1.png",
     },
     {
-        imgPath: "/images/logos/company-logo-6.png",
+        imgPath: "/images/logos/company-2.png",
     },
     {
-        imgPath: "/images/logos/company-logo-7.png",
+        imgPath: "/images/logos/company-3.png",
     },
     {
-        imgPath: "/images/logos/company-logo-8.png",
+        imgPath: "/images/logos/company-4.png",
     },
     {
-        imgPath: "/images/logos/company-logo-9.png",
+        imgPath: "/images/logos/company-1.png",
     },
     {
-        imgPath: "/images/logos/company-logo-10.png",
+        imgPath: "/images/logos/company-2.png",
     },
     {
-        imgPath: "/images/logos/company-logo-11.png",
+        imgPath: "/images/logos/company-3.png",
+    },
+    {
+        imgPath: "/images/logos/company-4.png",
     },
 ];
 
@@ -150,8 +153,8 @@ const techStackIcons = [
 const expCards = [
     {
         review: "Heinrich provided technical expertise and ensured the reliability of election-related systems. His dedication contributed greatly to the success of the 2025 national and local elections.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
+        imgPath: "/images/comelec.png",
+        logoPath: "/images/comelec-icon.png",
         title: "DESO Technical Support Staff",
         date: "May 2025",
         responsibilities: [
@@ -162,8 +165,8 @@ const expCards = [
     },
     {
         review: "Heinrich played a pivotal role in backend development and version control. His leadership in managing the team’s GitHub repository ensured seamless collaboration and efficient code integration.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
+        imgPath: "/images/quanby.png",
+        logoPath: "/images/quanby-icon.png",
         title: "Back-End Developer Intern",
         date: "June 2024 – July 2024",
         responsibilities: [
@@ -175,8 +178,8 @@ const expCards = [
     },
     {
         review: "Heinrich showed initiative in supporting the digitization of records and provided technical support to streamline our barangay operations.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
+        imgPath: "/images/dole.png",
+        logoPath: "/images/dole-icon.png",
         title: "DOLE-GIP Intern",
         date: "April 2024 – July 2024",
         responsibilities: [
@@ -187,12 +190,12 @@ const expCards = [
     },
     {
         review: "Heinrich's backend solutions improved our internal workflows. His accuracy and technical proficiency in data migration were essential to our operations.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
+        imgPath: "/images/fornix.png",
+        logoPath: "/images/fornix-icon.png",
         title: "Back-End Support Staff",
         date: "January 2024 – July 2024",
         responsibilities: [
-            "Developed internal tools for data migration within the Odoo ERP system.",
+            "Developed internal codes for data migration within the Odoo ERP system.",
             "Created and tested product codes to ensure smooth data transitions.",
             "Managed and analyzed datasets using spreadsheets for reporting and QA.",
         ],
@@ -219,62 +222,61 @@ const testimonials = [
         name: "Esther Howard",
         mentions: "@estherhoward",
         review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+            "I can’t say enough good things about Heinrich. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
         imgPath: "/images/client1.png",
     },
     {
         name: "Wade Warren",
         mentions: "@wadewarren",
         review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+            "Working with Heinrich was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
         imgPath: "/images/client3.png",
     },
     {
         name: "Guy Hawkins",
         mentions: "@guyhawkins",
         review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Heinrich was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Heinrich's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Heinrich is the ideal partner.",
         imgPath: "/images/client2.png",
     },
     {
         name: "Marvin McKinney",
         mentions: "@marvinmckinney",
         review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+            "Heinrich was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
         imgPath: "/images/client5.png",
     },
     {
         name: "Floyd Miles",
         mentions: "@floydmiles",
         review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+            "Heinrich’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
         imgPath: "/images/client4.png",
     },
     {
         name: "Albert Flores",
         mentions: "@albertflores",
         review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+            "Heinrich was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in backend dev are top-notch.",
         imgPath: "/images/client6.png",
     },
 ];
 
 const socialImgs = [
     {
-        name: "insta",
-        imgPath: "/images/insta.png",
+        name: "github",
+        imgPath: "/images/github.png",
+        link: "https://github.com/heinrichsandrino",
     },
     {
         name: "fb",
         imgPath: "/images/fb.png",
-    },
-    {
-        name: "x",
-        imgPath: "/images/x.png",
+        link: "https://www.facebook.com/heinrich.sandrino.3",
     },
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
+        link: "https://www.linkedin.com/in/hcsandrino/",
     },
 ];
 
