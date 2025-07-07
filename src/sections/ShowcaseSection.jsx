@@ -49,16 +49,15 @@ const AppShowcase = () => {
                 <div className="showcaselayout">
                     <div ref={rydeRef} className="first-project-wrapper">
                         <div className="image-wrapper">
-                            <img src={import.meta.env.BASE_URL +"images/project1.png"} alt="Ryde App Interface" />
+                            <img src={import.meta.env.BASE_URL +"images/project1.png"} alt="LAKAW App" />
                         </div>
                         <div className="text-content">
                             <h2>
-                                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                                called Ryde
+                                Travel Planning with LAKAW — Your Smart Itinerary Companion for Albay
                             </h2>
                             <p className="text-white-50 md:text-xl">
-                                An app built with React Native, Expo, & TailwindCSS for a fast,
-                                user-friendly experience.
+                                A mobile app built with FlutterFlow, Supabase, and custom algorithms for optimized routes
+                                and personalized tourist itineraries.
                             </p>
                         </div>
                     </div>
@@ -68,17 +67,17 @@ const AppShowcase = () => {
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
                                     src= {import.meta.env.BASE_URL +"images/project2.png"}
-                                    alt="LAKAW"
+                                    alt="aiBites App"
                                 />
                             </div>
-                            <h2>LAKAW - Smart Travel Planner for Albay Province</h2>
+                            <h2>aiBites - AI Recipe Recommendation App</h2>
                         </div>
 
                         <div className="project" ref={ycDirectoryRef}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src={import.meta.env.BASE_URL +"images/project3.png"} alt="aiBites" />
+                                <img src={import.meta.env.BASE_URL +"images/project3.png"} alt="employee-management" />
                             </div>
-                            <h2>aiBites - AI Recipe Recommendation App</h2>
+                            <h2>Employee Management System with Spring Boot and REST API</h2>
                         </div>
                     </div>
                 </div>
