@@ -137,14 +137,14 @@ const techStackIcons = [
         rotation: [0, -Math.PI / 2, 0],
     },
     {
-        name: "Interactive Developer",
-        modelPath: `${import.meta.env.BASE_URL}models/three.js-transformed.glb`, // <- rename to avoid ".js" confusion
+        name: "Java Developer",
+        modelPath: `${import.meta.env.BASE_URL}models/java-transformed.glb`, // <- rename to avoid ".js" confusion
         scale: 0.05,
         rotation: [0, 0, 0],
     },
     {
-        name: "Project Manager",
-        modelPath: `${import.meta.env.BASE_URL}models/git-svg-transformed.glb`,
+        name: "Flutter Developer",
+        modelPath: `${import.meta.env.BASE_URL}models/flutter.glb`,
         scale: 0.05,
         rotation: [0, -Math.PI / 4, 0],
     },
