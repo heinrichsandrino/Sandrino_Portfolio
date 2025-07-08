@@ -8,7 +8,7 @@ const Testimonials = () => {
             <div className="w-full h-full md:px-10 px-5">
                 <TitleHeader
                     title="What People Say About Me?"
-                    sub="⭐️ Customer feedback highlights"
+                    sub="⭐️ Feedback from Past Workmates"
                 />
 
                 <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
@@ -23,7 +23,14 @@ const Testimonials = () => {
                                 </div>
                                 <div>
                                     <p className="font-bold">{testimonial.name}</p>
-                                    <p className="text-white-50">{testimonial.mentions}</p>
+                                        <a
+                                        href={testimonial.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-white-50 hover:underline"
+                                        >
+                                            {testimonial.mentions}
+                                        </a>
                                 </div>
                             </div>
                         </GlowCard>
