@@ -3,7 +3,7 @@ import TitleHeader from "../components/TitleHeader";
 
 const AboutSection = () => {
     return (
-        <section className="relative overflow-hidden bg-black text-white py-20 px-6 md:px-16 lg:px-24">
+        <section id= "about" className="relative overflow-hidden bg-black text-white py-20 px-6 md:px-16 lg:px-24">
             <div className="absolute top-10 right-5 z-0 pointer-events-none">
                 <img
                     src={import.meta.env.BASE_URL + "/images/bg.png"}

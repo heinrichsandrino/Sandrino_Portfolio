@@ -51,14 +51,16 @@ const AppShowcase = () => {
                     <div ref={rydeRef} className="first-project-wrapper">
                         <div className="image-wrapper relative">
                             {showVideo ? (
-                                <iframe
-                                    src="https://youtu.be/HKVTyBwZZ8Q"
-                                    title="Lakaw Demo"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                    className="w-full h-full"
-                                />
+                                <div className="relative w-full pt-[56.25%] rounded-xl overflow-hidden">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/HKVTyBwZZ8Q"
+                                        title="YouTube video player"
+                                        className="absolute top-0 left-0 w-full h-full"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
                             ) : (
                                 <img
                                     src={import.meta.env.BASE_URL + "images/project1.png"}
@@ -92,16 +94,45 @@ const AppShowcase = () => {
                                     alt="aiBites App"
                                 />
                             </div>
-                            <h2>aiBites - AI Recipe Recommendation App</h2>
+                            <h2>
+                                <a
+                                    href="https://github.com/heinrichsandrino/aiBITES"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-white hover:text-blue-300 transition"
+                                >
+                                    aiBites - AI Recipe Recommendation App
+                                </a>
+                            </h2>
                         </div>
 
                         <div className="project" ref={ycDirectoryRef}>
                             <div className="image-wrapper bg-[#b2d8d8]">
                                 <img src={import.meta.env.BASE_URL +"images/project3.png"} alt="employee-management" />
                             </div>
-                            <h2>Employee Management System with Spring Boot and REST API</h2>
+                            <h2>
+                                <a
+                                    href="https://github.com/heinrichsandrino/employee-management"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-white hover:text-blue-300 transition"
+                                >
+                                    Employee Management System with Spring Boot and REST API
+                                </a>
+                            </h2>
                         </div>
                     </div>
+
+                </div>
+                <div className="w-full mt-12">
+                    <a
+                        href="https://github.com/heinrichsandrino"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition"
+                    >
+                        See more of my projects on GitHub →
+                    </a>
                 </div>
             </div>
         </div>
