@@ -74,7 +74,7 @@ const AppShowcase = () => {
                         </div>
 
                         <div className="project" ref={ycDirectoryRef}>
-                            <div className="image-wrapper bg-[#FFE7EB]">
+                            <div className="image-wrapper bg-[#b2d8d8]">
                                 <img src={import.meta.env.BASE_URL +"images/project3.png"} alt="employee-management" />
                             </div>
                             <h2>Employee Management System with Spring Boot and REST API</h2>
