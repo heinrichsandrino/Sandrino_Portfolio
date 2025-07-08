@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -10,6 +10,7 @@ const AppShowcase = () => {
     const rydeRef = useRef(null);
     const libraryRef = useRef(null);
     const ycDirectoryRef = useRef(null);
+    const [showVideo, setShowVideo] = useState(false); // ✅ toggle state
 
     useGSAP(() => {
         // Animation for the main section
@@ -48,10 +49,31 @@ const AppShowcase = () => {
             <div className="w-full">
                 <div className="showcaselayout">
                     <div ref={rydeRef} className="first-project-wrapper">
-                        <div className="image-wrapper">
-                            <img src={import.meta.env.BASE_URL +"images/project1.png"} alt="LAKAW App" />
+                        <div className="image-wrapper relative">
+                            {showVideo ? (
+                                <iframe
+                                    src="https://youtu.be/HKVTyBwZZ8Q"
+                                    title="Lakaw Demo"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                />
+                            ) : (
+                                <img
+                                    src={import.meta.env.BASE_URL + "images/project1.png"}
+                                    alt="LAKAW App"
+                                    className="w-full rounded-xl"
+                                />
+                            )}
+                            <button
+                                onClick={() => setShowVideo(!showVideo)}
+                                className="absolute bottom-2 right-2 bg-white/90 text-black px-4 py-1 rounded-md text-sm shadow-md hover:bg-white transition"
+                            >
+                                {showVideo ? "Back to Image" : "Watch Demo"}
+                            </button>
                         </div>
-                        <div className="text-content">
+                        <div className="text-content mt-4">
                             <h2>
                                 Travel Planning with LAKAW — Your Smart Itinerary Companion for Albay
                             </h2>

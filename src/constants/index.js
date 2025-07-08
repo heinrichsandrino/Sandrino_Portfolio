@@ -223,7 +223,8 @@ const testimonials = [
         mentions: "Connect on LinkedIn",
         link: "https://www.linkedin.com/in/ma-katrina-sacueza-4329981b8/",
         review:
-            "I can’t say enough good things about Heinrich. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+            "Heinrich was part of our Odoo project team at Fornix Corporation, and he proved to be a reliable and effective team member. He communicated well, delivered his tasks accurately, " +
+            "and often demonstrated strong analytical thinking when solving issues. His ability to work independently while staying aligned with project goals made a real difference in our progress.",
         imgPath: "/images/atekat.png",
     },
     {
@@ -231,7 +232,7 @@ const testimonials = [
         mentions: "Connect on LinkedIn",
         link: "https://www.linkedin.com/in/joemar25/",
         review:
-            "Working with Heinrich was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+            "Heinrich was part of a project I led at Quanby Solutions Inc., and it was clear from the start that he was eager to learn and grow. He consistently showed initiative, asked the right questions, and delivered quality work. It was great to mentor someone so driven and receptive. He'll be a valuable asset to any development team.",
         imgPath: "/images/kuyamar.png",
     },
     {
