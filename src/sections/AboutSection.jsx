@@ -31,13 +31,13 @@ const AboutSection = () => {
                     {/* Text Section */}
                     <div className="space-y-6 text-white-50 text-base md:text-lg leading-relaxed">
                         <p>
-                            I’m <span className="text-white font-semibold">Heinrich C. Sandrino</span>, a Software/Web Developer specializing in back-end development and data-driven solutions. As a Computer Science graduate from Bicol University, I’ve built and contributed to real-world projects that focus on logic, data processing, and system architecture using tools like Supabase, Python, TypeScript, Dart, and Java.
+                            I’m <span className="text-white font-semibold">Heinrich C. Sandrino</span>, a Software/Web Developer specializing with a strong focus on back-end development. As a Computer Science graduate from Bicol University, I’ve built and contributed to real-world projects that focus on logic, data processing, and system architecture using tools like Supabase, Python, TypeScript, Dart, and Java.
                         </p>
                         <p>
-                            Through work experiences and internships with the Commission on Elections, DOLE, Fornix Corporation, and Quanby Solutions, I’ve gained practical experience in building back-end systems, managing databases, writing scalable code, and supporting IT infrastructures. My work includes ERP data migration scripts, HR platform development, and mobile app logic for route optimization and AI-based recommendations.
+                            Through work experiences and internships with the Commission on Elections, DOLE, Fornix Corporation, and Quanby Solutions, I’ve gained practical experience in building back-end systems, managing databases, writing scalable code, and supporting IT infrastructures. My work includes backend development for HR platforms, mobile app logic for route optimization, and AI-based recommendation systems.
                         </p>
                         <p>
-                            With a strong foundation in algorithms and problem-solving, I thrive in roles that require critical thinking, clean code, and functional design. I’m now seeking opportunities to grow as a back-end or system-focused developer and contribute to impactful, data-centered projects.
+                            With a strong foundation in algorithms and problem-solving, I thrive in roles that require critical thinking, clean code, and functional design. I’m now seeking opportunities to grow as a back-end or system-focused developer and contribute to impactful projects.
                         </p>
                     </div>
                 </div>
