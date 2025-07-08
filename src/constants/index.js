@@ -219,27 +219,30 @@ const expLogos = [
 
 const testimonials = [
     {
-        name: "Esther Howard",
-        mentions: "@estherhoward",
+        name: "Ma Katrina Sacueza",
+        mentions: "Connect on LinkedIn",
+        link: "https://www.linkedin.com/in/ma-katrina-sacueza-4329981b8/",
         review:
             "I can’t say enough good things about Heinrich. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-        imgPath: "/images/client1.png",
+        imgPath: "/images/atekat.png",
     },
     {
-        name: "Wade Warren",
-        mentions: "@wadewarren",
+        name: "Joemar Cardiño",
+        mentions: "Connect on LinkedIn",
+        link: "https://www.linkedin.com/in/joemar25/",
         review:
             "Working with Heinrich was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-        imgPath: "/images/client3.png",
+        imgPath: "/images/kuyamar.png",
     },
     {
-        name: "Guy Hawkins",
-        mentions: "@guyhawkins",
+        name: "Angela Sheriza Tino",
+        mentions: "Connect on LinkedIn",
+        link: "https://www.linkedin.com/in/anj-tino/",
         review:
-            "Collaborating with Heinrich was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Heinrich's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Heinrich is the ideal partner.",
-        imgPath: "/images/client2.png",
+            "Heinrich is incredibly dependable, collaborative, and always brings a strong sense of professionalism to any task. Working with him has been a great experience—he communicates effectively, meets deadlines without fail, and consistently goes above and beyond to support the team. Heinrich is not only skilled at what he does, but also someone you can truly count on. Any team would be lucky to have him.",
+        imgPath: "/images/sheshe.png",
     },
-    {
+    /*{
         name: "Marvin McKinney",
         mentions: "@marvinmckinney",
         review:
@@ -259,7 +262,7 @@ const testimonials = [
         review:
             "Heinrich was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in backend dev are top-notch.",
         imgPath: "/images/client6.png",
-    },
+    },*/
 ];
 
 const socialImgs = [
