@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="flex flex-col justify-center">
                     <a
                         href="assets/Heinrich_Sandrino-Resume.pdf"
-                        download="Heinrich_Sandrino-CV.pdf"
+                        download="Heinrich_Sandrino-Resume.pdf"
                         className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200 text-center"
                     >
                         Download CV
