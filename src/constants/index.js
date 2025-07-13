@@ -223,8 +223,7 @@ const testimonials = [
         mentions: "Connect on LinkedIn",
         link: "https://www.linkedin.com/in/ma-katrina-sacueza-4329981b8/",
         review:
-            "Heinrich was part of our Odoo project team at Fornix Corporation, and he proved to be a reliable and effective team member. He communicated well, delivered his tasks accurately, " +
-            "and often demonstrated strong analytical thinking when solving issues. His ability to work independently while staying aligned with project goals made a real difference in our progress.",
+            "Heinrich was part of our Odoo project team at Fornix Corporation, where he consistently demonstrated reliability, analytical strength, and strong communication skills. He delivered his tasks with accuracy and showed clear, strategic thinking when resolving issues. What stood out most was his ability to work independently while remaining aligned with project goals, definitely this made a significant impact on our progress and overall implementation success.",
         imgPath: "/images/atekat.png",
     },
     {
