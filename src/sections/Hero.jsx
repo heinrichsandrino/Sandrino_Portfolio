@@ -48,7 +48,7 @@ const Hero = () => {
                             <h1>That Deliver Results</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, I’m Heinrich, an aspiring QA Tester with a strong background in software development.
+                            Hi, I'm Heinrich, an aspiring QA Tester with a developer's edge.
                         </p>
                         <Button
                             className="md:w-80 md:h-16 w-60 h-12"
