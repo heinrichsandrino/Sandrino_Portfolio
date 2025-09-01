@@ -31,13 +31,13 @@ const AboutSection = () => {
                     {/* Text Section */}
                     <div className="space-y-6 text-white-50 text-base md:text-lg leading-relaxed">
                         <p>
-                            I’m <span className="text-white font-semibold">Heinrich C. Sandrino</span>, a Software/Web Developer specializing with a strong focus on back-end development. As a Computer Science graduate from Bicol University, I’ve built and contributed to real-world projects that focus on logic, data processing, and system architecture using tools like Supabase, Python, TypeScript, Dart, and Java.
+                            I’m <span className="text-white font-semibold">Heinrich C. Sandrino</span>, a Computer Science graduate (Cum Laude, DOST Scholar) with a passion for building reliable software and ensuring its quality. I have a strong foundation in Java, Python, TypeScript, Dart, and Supabase, and have applied these skills through both academic projects and professional development work.
                         </p>
                         <p>
-                            Through work experiences and internships with the Commission on Elections, DOLE, Fornix Corporation, and Quanby Solutions, I’ve gained practical experience in building back-end systems, managing databases, writing scalable code, and supporting IT infrastructures. My work includes backend development for HR platforms, mobile app logic for route optimization, and AI-based recommendation systems.
+                            Through my academic projects and development work at Quanby Solutions, I gained practical experience in back-end development, database management, and building functional systems. These experiences strengthened my skills in debugging, problem-solving, and writing clean, efficient code that supports reliable applications.
                         </p>
                         <p>
-                            With a strong foundation in algorithms and problem-solving, I thrive in roles that require critical thinking, clean code, and functional design. I’m now seeking opportunities to grow as a back-end or system-focused developer and contribute to impactful projects.
+                            I am now focused on pursuing a career in Software Testing and Quality Assurance, where I can combine my developer’s perspective with a tester’s eye for detail. My goal is to contribute to creating systems that are not only functional but also stable, efficient, and user-ready, while continuously growing my expertise as a QA professional.
                         </p>
                     </div>
                 </div>
